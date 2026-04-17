@@ -1,12 +1,12 @@
 # Service Owner
 
-## Část 1 – Kontejnerizace a lokální běh
+## Část 1 – Běh aplikace
 
-Zajistěte běh webové aplikace s databází v kontejnerech. Aplikaci si zvolte sami – můžete použít existující open-source projekt, demo aplikaci, nebo cokoliv jiného. Po spuštění musí být aplikace funkční a otestovatelná.
+Zajistěte běh webové aplikace s databází. Aplikaci si zvolte sami – můžete použít existující open-source projekt, demo aplikaci, nebo cokoliv jiného. Aplikace musí být funkční a otestovatelná.
 
 ## Část 2 – CI pipeline
 
-Pro aplikaci z Části 1 vytvořte CI pipeline v GitHub Actions, která zajistí build a publikaci Docker image.
+Pro aplikaci z Části 1 vytvořte CI pipeline, která zajistí build a publikaci deployovatelného artefaktu.
 
 ## Část 3 – Deployment pipeline a prostředí
 
